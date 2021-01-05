@@ -157,7 +157,7 @@
 
                                     </div>
                                     <div class="featured-button">
-                                        <a href="boiled-shinki.php" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
+                                        <a href="{{ route('ham') }}" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@
 
                                     </div>
                                     <div class="featured-button">
-                                        <a href="boiled-sausages.php" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
+                                        <a href="{{ route('highest_class') }}" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@
 
                                     </div>
                                     <div class="featured-button">
-                                        <a href="sausages.php" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
+                                        <a href="{{ route('bigsausages') }}" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
 
                                     </div>
                                     <div class="featured-button">
-                                        <a href="semi-smoked.php" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
+                                        <a href="{{ route('semi_smoked')}}" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
 
                                 </div>
                                 <div class="featured-button">
-                                    <a href="delicacies.php" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
+                                    <a href="{{ route('delicacies') }}" class="bt-orange featured"><span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -224,7 +224,7 @@
 
                                 </div>
                                 <div class="featured-button">
-                                    <a href="smoked-cheese.php" class="bt-orange featured"><span><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
+                                    <a href="{{ route('cheese_smoked') }}" class="bt-orange featured"><span><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></a>
                                 </div>
                             </div>
 
