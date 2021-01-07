@@ -42,7 +42,8 @@
                 <ul class="navbar float-right onlydesktop">
                     <li><a class="fb-ic mr-3" href="http://www.facebook.com" target="_blank" role="button"><i class="fab fa-lg fa-facebook-f"></i></a></li>
                     <li><a class="tw-ic mr-3" href="https://www.instagram.com/zorya_dnepra"  target="_blank" role="button"><i class="fab fa-lg fa-instagram"></i></a></li>
-                    <li><a class="tw-ic mr-3" href="https://www.instagram.com/zorya_dnepra"  target="_blank" role="button">RU</a></li>
+                    <li><a class="tw-ic mr-3" href="{{ route('locale', __('main.set_lang_to_back')) }}"  target="_self" role="button">@lang('main.set_lang')</a></li>
+
                 </ul>
                 <ul class="navbar">
                     <li class="hambuger onlyresponsive">

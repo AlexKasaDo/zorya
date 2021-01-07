@@ -11,8 +11,8 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12">
-                    <h4 class="small center">Бренди</h4>
-                    <h4 class="title center">Новинки</h4>
+                    <h4 class="small center">{{__('news.brands')}}</h4>
+                    <h4 class="title center">{{__('news.news')}}</h4>
                 </div>
             </div>
             <div class="row justify-content-md-center">
@@ -24,8 +24,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/z_parmezanom.jpg') }}" class="nofilter" alt="Галицька" />
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">З Пармезаном</h4>
-                                    <p class="center">Ковбаса сиров’ялена вищого сорту</p>
+                                    <h4 class="center">{{__('news.parmezan')}}</h4>
+                                    <p class="center">{{__('news.parmezan_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -33,8 +33,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/zamkova3953.jpg') }}" class="nofilter" alt="Замкова"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Замкова</h4>
-                                    <p class="center">Ковбаса напівкопчена вищого сорту</p>
+                                    <h4 class="center">{{__('news.zamkova')}}</h4>
+                                    <p class="center">{{__('news.parmezan_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -42,8 +42,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/moskowska.jpg') }}" class="nofilter" alt="Московська"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Московська</h4>
-                                    <p class="center">Ковбаса варено-копчена вищого сорту</p>
+                                    <h4 class="center">{{__('news.moscow')}}</h4>
+                                    <p class="center">{{__('news.moscow_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -51,8 +51,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/sosiski_Avstriys\'ki.jpg') }}" class="nofilter" alt="Тірольські"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Австрійські</h4>
-                                    <p class="center">Сосиски вищого сорту</p>
+                                    <h4 class="center">{{__('news.austria')}}</h4>
+                                    <p class="center">{{__('news.austria_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -60,8 +60,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/sardel\'ki_Shkol\'ni.jpg') }}" class="nofilter" alt="Тірольські"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Шкільні</h4>
-                                    <p class="center">Сосиски вищого сорту</p>
+                                    <h4 class="center">{{__('news.school')}}</h4>
+                                    <p class="center">{{__('news.school_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -69,8 +69,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/meet3949.jpg') }}" class="nofilter" alt="М’ясницька" />
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">М’ясницька</h4>
-                                    <p class="center">Ковбаса напівкопчена першого сорту</p>
+                                    <h4 class="center">{{__('news.meat')}}</h4>
+                                    <p class="center">{{__('news.meat_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>

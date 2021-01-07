@@ -20,8 +20,9 @@
                              data-y="['middle','middle','middle','middle']"
                              data-textalign="['center']"
                              data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <h2>Ласкаво просимо</h2>
+                            <h1>{{__('main.h1_title')}}</h1>
                         </div>
+
 
                         <div class="tp-caption"
                              data-x="['center']"
@@ -31,35 +32,36 @@
                              data-y="['middle','middle','middle','middle']"
                              data-textalign="['center']"
                              data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="title">Про нас скаже наша продукція</p>
+                            <p class="title">{{__('main.sub_title')}}</p>
                         </div>
 
-                        <div class="tp-caption"
-                             data-responsive_offset="on"
-                             data-x="['center']"
-                             data-hoffset="['15','135','15','15']"
-                             data-voffset="['100']"
-                             data-x="['center']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-textalign="['center']"
-                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="description">З нами смачно </p>
+{{--                        <div class="tp-caption"--}}
+{{--                             data-responsive_offset="on"--}}
+{{--                             data-x="['center']"--}}
+{{--                             data-hoffset="['15','135','15','15']"--}}
+{{--                             data-voffset="['100']"--}}
+{{--                             data-x="['center']"--}}
+{{--                             data-y="['middle','middle','middle','middle']"--}}
+{{--                             data-textalign="['center']"--}}
+{{--                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>--}}
+{{--                            <p class="description">З нами смачно </p>--}}
 
-                        </div>
+{{--                        </div>--}}
 
                         <div class="tp-caption"
                              data-responsive_offset="on"
                              data-type="text"
                              data-height="none"
-                             data-width="['1170','1170','1170','420']"
+                             data-width="['1920','1920','1920','520']"
                              data-whitespace="normal"
-                             data-voffset="['200']"
+                             data-hoffset="['15','135','15','15']"
+                             data-voffset="['120']"
                              data-x="['center']"
                              data-y="['middle','middle','middle','middle']"
                              data-textalign="['center']"
                              data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                             <div class="btns-box">
-                                <a href="#section-menu" class="animatedScroll theme-btn btn-style-one bt-orange">Продукція</a>
+                                <a href="#section-menu" class="animatedScroll theme-btn btn-style-one bt-orange">{{__('main.main_button')}}</a>
 
                             </div>
                         </div>
@@ -139,7 +141,7 @@
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-12">
-                            <h4 class="small center">Продукція</h4>
+                            <h4 class="small center">{{__('main.title_production')}}</h4>
                         </div>
                     </div>
                 </div>
@@ -153,7 +155,7 @@
                                 </div>
                                 <div class="featured-info">
                                     <div class="featured-text">
-                                        <p>Шинки варені</p>
+                                        <p>{{__('main.ham')}}</p>
 
                                     </div>
                                     <div class="featured-button">
@@ -167,7 +169,7 @@
                                 </div>
                                 <div class="featured-info">
                                     <div class="featured-text">
-                                        <p>Варені ковбаси</p>
+                                        <p>{{__('main.cooked_sausage')}}</p>
 
                                     </div>
                                     <div class="featured-button">
@@ -181,7 +183,7 @@
                                 </div>
                                 <div class="featured-info">
                                     <div class="featured-text">
-                                        <p>Сардельки</p>
+                                        <p>{{__('main.big_sausages')}}</p>
 
                                     </div>
                                     <div class="featured-button">
@@ -195,7 +197,7 @@
                                 </div>
                                 <div class="featured-info">
                                     <div class="featured-text">
-                                        <p>Напівкопчені</p>
+                                        <p>{{__('main.half')}}</p>
 
                                     </div>
                                     <div class="featured-button">
@@ -208,7 +210,7 @@
                                     <img  src="{{ asset('img/demo/dark-version/featured/05.jpg') }}" alt="Featured" />
                                 </div>
                                 <div class="featured-text">
-                                    <p>Делікатеси</p>
+                                    <p>{{__('main.delicacies')}}</p>
 
                                 </div>
                                 <div class="featured-button">
@@ -220,7 +222,7 @@
                                     <img  src="{{ asset('img/demo/dark-version/featured/06.jpg') }}" alt="Featured" />
                                 </div>
                                 <div class="featured-text">
-                                    <p>Сирокопчена</p>
+                                    <p>{{__('main.cheese')}}</p>
 
                                 </div>
                                 <div class="featured-button">
@@ -266,8 +268,8 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12">
-                    <h4 class="small center">Бренди</h4>
-                    <h4 class="title center">Новинки</h4>
+                    <h4 class="small center">{{__('news.brands')}}</h4>
+                    <h4 class="title center">{{__('news.news')}}</h4>
                 </div>
             </div>
             <div class="row justify-content-md-center">
@@ -279,8 +281,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/z_parmezanom.jpg') }}" class="nofilter" alt="Галицька" />
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">З Пармезаном</h4>
-                                    <p class="center">Ковбаса сиров’ялена вищого сорту</p>
+                                    <h4 class="center">{{__('news.parmezan')}}</h4>
+                                    <p class="center">{{__('news.parmezan_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -288,8 +290,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/zamkova3953.jpg') }}" class="nofilter" alt="Замкова"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Замкова</h4>
-                                    <p class="center">Ковбаса напівкопчена вищого сорту</p>
+                                    <h4 class="center">{{__('news.zamkova')}}</h4>
+                                    <p class="center">{{__('news.parmezan_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -297,8 +299,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/moskowska.jpg') }}" class="nofilter" alt="Московська"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Московська</h4>
-                                    <p class="center">Ковбаса варено-копчена вищого сорту</p>
+                                    <h4 class="center">{{__('news.moscow')}}</h4>
+                                    <p class="center">{{__('news.moscow_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -306,8 +308,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/sosiski_Avstriys\'ki.jpg') }}" class="nofilter" alt="Тірольські"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Австрійські</h4>
-                                    <p class="center">Сосиски вищого сорту</p>
+                                    <h4 class="center">{{__('news.austria')}}</h4>
+                                    <p class="center">{{__('news.austria_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -315,8 +317,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/sardel\'ki_Shkol\'ni.jpg') }}" class="nofilter" alt="Тірольські"/>
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">Шкільні</h4>
-                                    <p class="center">Сосиски вищого сорту</p>
+                                    <h4 class="center">{{__('news.school')}}</h4>
+                                    <p class="center">{{__('news.school_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -324,8 +326,8 @@
                                 <div class="sliderslide-content center">
                                     <img src="{{ asset('img/demo/dark-version/team/meet3949.jpg') }}" class="nofilter" alt="М’ясницька" />
                                     <div class="voffset-40"></div>
-                                    <h4 class="center">М’ясницька</h4>
-                                    <p class="center">Ковбаса напівкопчена першого сорту</p>
+                                    <h4 class="center">{{__('news.meat')}}</h4>
+                                    <p class="center">{{__('news.meat_desc')}}</p>
                                     <div class="voffset-40"></div>
                                 </div>
                             </div>
@@ -337,7 +339,7 @@
 
         </div>
     </section>
-    <!-- Team Section Start -->
+    <!-- New Section End -->
 
     <div class="voffset-131 bg"></div>
 

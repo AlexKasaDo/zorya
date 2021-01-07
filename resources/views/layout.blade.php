@@ -3,16 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Зоря Дніпра &#8211; Про нас скаже наша продукція! Висока якість продукції вищого і першого сорту
-зроби ваше життя щасливішим! &hellip;">
-    <meta name="author" content="">
+    <meta name="description" content="{{__('main.description')}}">
+    <meta name="author" content="casairis">
 
 
 
-    <title>@yield('title',"Зоря Дніпра - Про нас скаже наша продукція!") </title>
-    <link href="{{ asset('img/favicon.ico') }}" rel="stylesheet" type="img" >
+    <title>{{__('main.title')}} </title>
+    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" rel="stylesheet" type="image/x-icon" >
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" >

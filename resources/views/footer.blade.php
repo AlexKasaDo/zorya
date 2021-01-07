@@ -14,16 +14,16 @@
                 </div>
                 <div class="voffset-50"></div>
                 <div class="col-footer-1" >
-                    <h4>Про компанію</h4>
-                    <p>Про нас скаже наша продукція!</p>
-                    <p>З нами смачно.</p>
+                    <h4>{{__('footer.about')}}</h4>
+                    <p>{{__('footer.title')}}</p>
+                    <p>{{__('footer.sub_title')}}</p>
                 </div>
                 <div class="col-footer-2">
-                    <h4>Отримати новини</h4>
+                    <h4>{{__('footer.get_news')}}</h4>
                     <form action="#" method="post" id="newsform" class="booking-form">
                         <div class="form-group ">
                             <label for="input-news"></label>
-                            <input name="date" type="text" class="form-control" id="input-news" placeholder="Введіть e-mail">
+                            <input name="date" type="text" class="form-control" id="input-news" placeholder="{{__('footer.email')}}">
                             <button type="submit" value="" class="bt-orange">
                                     <span class="left0"><img alt=""  src="{{ asset('img/demo/dark-version//particles/arrow.svg') }}"/>
                                     </span>
@@ -34,12 +34,12 @@
                     </form>
                 </div>
                 <div class="col-lg-5 col-footer-3 footer-contact">
-                    <h4>Контакти</h4>
+                    <h4>{{__('footer.contacts')}}</h4>
                     <p>
-                        <span>вул. В. Сухомлинського </span>
+                        <span>{{__('footer.street')}} </span>
                         <span>+38 (067) 231-59-57</span>
-                        <span>буд. 74 А, смт Слобожанське <br>
-                            Дніпровський р-н Дніпропетровська обл. Україна</span>
+                        <span>{{__('footer.house')}}<br>
+                            {{__('footer.city')}}</span>
                         <span><a href="mailto:zoryadnepra@gmail.com">zoryadnepra@gmail.com</a></span>
 
                     </p>

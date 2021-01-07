@@ -5,8 +5,8 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-12">
-                        <h4 class="small center">Продукція</h4>
-                        <h4 class="title center">Весь асортимент</h4>
+                        <h4 class="small center">{{__('main.title_production')}}</h4>
+                        <h4 class="title center">{{__('main.title_all_production')}}</h4>
                     </div>
                 </div>
             </div>
@@ -17,11 +17,11 @@
             <div class="row justify-content-center js-inview">
                 <div class="col-12">
                     <ul class="js-filters filters">
-                        <li data-filter="*" class="is-checked">Вся Продукція</li>
-                        <li data-filter=".dining">Делікатеси</li>
-                        <li data-filter=".coffe">Варені ковбаси</li>
-                        <li data-filter=".drinkbar">Сардельки </li>
-                        <li data-filter=".catering">Сосиски</li>
+                        <li data-filter="*" class="is-checked">{{__('main.all_productions')}}</li>
+                        <li data-filter=".dining">{{__('main.delicacies')}}</li>
+                        <li data-filter=".coffe">{{__('main.cooked_sausage')}}</li>
+                        <li data-filter=".drinkbar">{{__('main.big_sausages')}}</li>
+                        <li data-filter=".catering">{{__('main.sausages')}}</li>
                     </ul>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
                             <!-- Сосиски и сардельки Конец-->
                         </div>
-                        <p class="loadmore min"><span class="js-loadmore btn">Бильше фото<span><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></span></p>
+                        <p class="loadmore min"><span class="js-loadmore btn">{{__('main.cooked_more')}}<span><img alt=""  src="{{ asset('img/demo/dark-version/particles/arrow.svg') }}"/></span></span></p>
                         <div class="js-more-items grid-gallery-more-items">
                             <div data-src="{{ asset('img/demo/dark-version/masonry/gallery/sausages/D80_1404.jpg') }}" class="grid-item dining" ><img alt="img" src="{{ asset('img/demo/dark-version/masonry/gallery/sausages/D80_1404.jpg') }}" alt="img">
                                 <div class="grid-item__rollover pr">
