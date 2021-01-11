@@ -1343,8 +1343,6 @@ $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
 
 __webpack_require__(/*! ../../public/js/contact_me */ "./public/js/contact_me.js");
 
-__webpack_require__(/*! ../../public/js/contact_me */ "./public/js/contact_me.js");
-
 __webpack_require__(/*! ../../public/js/jqBootstrapValidation */ "./public/js/jqBootstrapValidation.js");
 
 __webpack_require__(/*! ../../public/js/main */ "./public/js/main.js");

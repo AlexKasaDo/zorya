@@ -89,6 +89,9 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     top: 0;
     left: 0
 }
+svg:hover {
+    fill: #ff7200 ;
+}
 body.dark-version .navbar li .dropdown-item{
         color: #fcfcf7 !important;
 }
@@ -784,6 +787,7 @@ body.dark-version .header.overlayer-fixed.design-page .dropdown-icon span:before
 }
 a.mr-3{
     color: #fcfcf7 !important;
+    font-family: 'Arimo', sans-serif;
 }
 a.mr-3:hover{
     color: #ff7200 !important;
