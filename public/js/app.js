@@ -1347,8 +1347,6 @@ __webpack_require__(/*! ../../public/js/jqBootstrapValidation */ "./public/js/jq
 
 __webpack_require__(/*! ../../public/js/main */ "./public/js/main.js");
 
-__webpack_require__(/*! ../../public/js/jqBootstrapValidation */ "./public/js/jqBootstrapValidation.js");
-
 /***/ }),
 
 /***/ "./resources/sass/app.scss":

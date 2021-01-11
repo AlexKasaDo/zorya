@@ -26,8 +26,8 @@
 
 
 
-    <!-- Modernizr -->
-    <script type="text/javascript" src="{{ asset('vendor/modernizr.js') }}"></script>
+{{--    <!-- Modernizr -->--}}
+{{--    <script type="text/javascript" src="{{ asset('vendor/modernizr.js') }}"></script>--}}
 
     <!-- Fonts -->
 
