@@ -21,6 +21,10 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "gulp": "^4.0.2"
+        "bootstrap": "^4.5.3",
+        "gulp": "^4.0.2",
+        "laravel-elixir": "^6.0.0-18",
+        "revolution": "^1.0.0",
+        "slick-carousel": "^1.8.1"
     }
 }

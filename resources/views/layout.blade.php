@@ -23,15 +23,16 @@
     <link href="{{ asset('vendor/fontawesome/css/all.css') }}" rel="stylesheet" type="text/css" >
 
 
-
-    <link href="{{ asset('vendor/revolution/css/revolution.all.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('vendor/revolution/css/revolution.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('vendor/aos/css/aos.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('vendor/jquery/jquery-ui.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('vendor/jquery/jquery.timepicker.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('vendor/slick/slick.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('vendor/lightGallery/css/lightgallery.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
     <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" >
+{{--    <link href="{{ asset('vendor/revolution/css/revolution.all.css') }}" rel="stylesheet" type="text/css" >--}}
+{{--    <link href="{{ asset('vendor/revolution/css/revolution.css') }}" rel="stylesheet" type="text/css" >--}}
+{{--    <link href="{{ asset('vendor/aos/css/aos.css') }}" rel="stylesheet" type="text/css" >--}}
+{{--    <link href="{{ asset('vendor/jquery/jquery-ui.css') }}" rel="stylesheet" type="text/css" >--}}
+{{--    <link href="{{ asset('vendor/jquery/jquery.timepicker.css') }}" rel="stylesheet" type="text/css" >--}}
+{{--    <link href="{{ asset('vendor/slick/slick.css') }}" rel="stylesheet" type="text/css" >--}}
+    <link href="{{ asset('vendor/lightGallery/css/lightgallery.css') }}" rel="stylesheet" type="text/css" >
+
 
 
 
