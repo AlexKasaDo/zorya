@@ -14,10 +14,7 @@
 
     <title>{{__('main.title')}} </title>
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" rel="stylesheet" type="image/x-icon" >
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" >
-
+    
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="{{ asset('vendor/fontawesome/css/all.css') }}" rel="stylesheet" type="text/css" >
