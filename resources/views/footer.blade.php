@@ -59,6 +59,8 @@
 </footer>
 <!-- Booking Section End -->
 
+<!-- Modernizr -->
+<script type="text/javascript" src="{{ asset('vendor/modernizr.js') }}"></script>
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="{{ asset('vendor/jquery/jquery.js') }}"></script>
 <script type="text/javascript" src="{{ asset('vendor/jquery/jquery-ui.js') }}"></script>
