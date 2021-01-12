@@ -16,11 +16,9 @@
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" rel="stylesheet" type="image/x-icon" >
 
     <link href="{{ asset('css/vendor.css') }}" rel="stylesheet" type="text/css" >
-
-
-
-{{--    <!-- Modernizr -->--}}
-{{--    <script type="text/javascript" src="{{ asset('vendor/modernizr.js') }}"></script>--}}
+    
+    <!-- Modernizr -->
+    <script type="text/javascript" src="{{ asset('vendor/modernizr.js') }}"></script>
 
     <!-- Fonts -->
 

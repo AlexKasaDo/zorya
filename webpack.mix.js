@@ -15,8 +15,8 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
 mix.styles([
-    'public/css/main.css',
     'public/css/app.css',
+    'public/css/main.css',
     'public/vendor/lightGallery/css/lightgallery.css'
 ], 'public/css/vendor.css');
 
