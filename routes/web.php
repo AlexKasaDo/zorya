@@ -49,6 +49,7 @@ Route::group(['middleware'=>'HtmlMinifier'], function(){
     Route::get('highest_class', function () { return view('highest_class');})->name('highest_class');
 
     Route::get('first_class', function () { return view('first_class');})->name('first_class');
+    
 
 });
 
