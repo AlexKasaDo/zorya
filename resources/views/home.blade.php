@@ -11,7 +11,7 @@
 
                     <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-title="Slide Title" data-transition="slotfade-horizontal">
                         <img alt=""  class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                             srcset="{{ asset('img/demo/dark-version/slider-design/sliderbg-380w.jpg') }} 320w,
+                             srcset="{{ asset('img/demo/dark-version/slider-design/sliderbg-380.jpg') }} 320w,
                                          {{ asset('img/demo/dark-version/slider-design/sliderbg-480.jpg') }} 480w,
                                          {{ asset('img/demo/dark-version/slider-design/sliderbg-992.jpg') }} 800w,
                                          {{ asset('img/demo/dark-version/slider-design/sliderbg-1900w.jpg') }} 1200w"
