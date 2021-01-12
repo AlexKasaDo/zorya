@@ -13,10 +13,12 @@
                         <img alt=""  class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
                              srcset="{{ asset('img/demo/dark-version/slider-design/sliderbg-380w.jpg') }} 320w,
                                          {{ asset('img/demo/dark-version/slider-design/sliderbg-480.jpg') }} 480w,
-                                         {{ asset('img/demo/dark-version/slider-design/sliderbg-992.jpg') }} 800w"
+                                         {{ asset('img/demo/dark-version/slider-design/sliderbg-992.jpg') }} 800w,
+                                         {{ asset('img/demo/dark-version/slider-design/sliderbg-1200w.jpg') }} 1200w"
                              sizes="(max-width: 320px) 280px,
                                     (max-width: 480px) 440px,
-                                    (max-width: 1200px) 1200px" src="{{ asset('img/demo/dark-version/slider-design/sliderbg-1900w.jpg') }}">
+                                                       800px"
+                             src="{{ asset('img/demo/dark-version/slider-design/sliderbg-992w.jpg') }}">
 
                         <div class="tp-caption"
                              data-x="['center']"
