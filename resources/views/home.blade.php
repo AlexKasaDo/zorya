@@ -18,7 +18,7 @@
                              sizes="(max-width: 320px) 280px,
                                     (max-width: 480px) 440px,
                                                        800px"
-                             src="{{ asset('img/demo/dark-version/slider-design/sliderbg-992w.jpg') }}">
+                             src="{{ asset('img/demo/dark-version/slider-design/sliderbg-992.jpg') }}">
 
                         <div class="tp-caption"
                              data-x="['center']"
