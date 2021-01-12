@@ -4,43 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
 
-@font-face{
-
-    font-family: 'Bebas';
-
-    src: url('../fonts/bebas/Bebas_neue_Cyrillic.ttf');
-
-
-    font-weight: normal;
-
-    font-style: normal;
-
-}
-@font-face{
-
-    font-family: 'Bebas';
-
-    src: url('../fonts/bebas/Bebasneue bold.ttf');
-
-
-    font-weight: bold;
-
-    font-style: normal;
-
-}
-
-@font-face{
-
-    font-family: 'Bebas';
-
-    src: url('../fonts/BebasNeue Bold.otf');
-
-
-    font-weight: bold;
-
-    font-style: normal;
-
-}
 
 html {
     font-family: 'Comfortaa', cursive;

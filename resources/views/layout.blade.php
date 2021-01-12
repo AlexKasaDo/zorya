@@ -15,14 +15,7 @@
     <title>{{__('main.title')}} </title>
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" rel="stylesheet" type="image/x-icon" >
 
-
-
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" >
-
-    <link href="{{ asset('vendor/lightGallery/css/lightgallery.css') }}" rel="stylesheet" type="text/css" >
-
-
+    <link href="{{ asset('css/vendor.css') }}" rel="stylesheet" type="text/css" >
 
 
 
