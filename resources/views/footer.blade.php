@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-footer-2">
                     <h4>{{__('footer.get_news')}}</h4>
-                    <form action="#" method="post" id="newsform" class="booking-form">
+                    <form action="#" id="newsform" class="booking-form">
                         <div class="form-group ">
                             <label for="input-news"></label>
                             <input name="date" type="text" class="form-control" id="input-news" placeholder="{{__('footer.email')}}">

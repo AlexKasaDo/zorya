@@ -11,7 +11,7 @@ class LanguageSwitcher
 
 
        \App::setlocale(session ('locale'));
-////       \App::getLocale(session('locale') or 'ru');
+////       \App::getLocale(session('locale') or 'ukr');
 
 
 
