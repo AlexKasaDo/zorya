@@ -16,7 +16,7 @@
                                          {{ asset('img/demo/dark-version/slider-design/sliderbg-992.jpg') }} 800w"
                              sizes="(max-width: 320px) 280px,
                                     (max-width: 480px) 440px,
-                                                       1200px" src="{{ asset('img/demo/dark-version/slider-design/sliderbg-1900w.jpg') }}">
+                                    (max-width: 1200px) 1200px" src="{{ asset('img/demo/dark-version/slider-design/sliderbg-1900w.jpg') }}">
 
                         <div class="tp-caption"
                              data-x="['center']"
