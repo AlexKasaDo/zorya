@@ -26,45 +26,7 @@
 
     <!-- History Section Start -->
 
-    <section id="section-history"  data-aos="fade-in" data-aos-duration="1000">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-lg-6 equalHW padding0">
-                    <div  class="section specialities">
-                        <div class="section history">
-                            <div class="history-content alignVCenter">
-                                <div class="container-col">
-                                    <!--<h4 class="small medium right light">Discover your taste</h4>-->
-                                    <h4 class="white title">Тірольські</h4>
-                                    <div class="voffset-30"></div>
-                                    <p>
-                                        Склад: свинина, сало хребтове, яловичина, м&#39;ясо птиці, сіль кухонна, цукор-
-                                        пісок, натуральні прянощі (перець духмяний мелений, перець чорний
-                                        мелений).
-                                    </p>
-                                    <p>
-                                        Поживна (харчова) цінність 100 g (г) продукту (середні значення):
-                                        білки – 13,0 g (г); жири – 34,5 g (г) з них насичені жири – 14,5 g (г);
-                                        вуглеводи –1,0 g (г) ; цукор - 1,0 g (г); сіль – 2,1 g (г).
-
-                                    </p>
-                                    <p>
-                                        Енергетична цінність (калорійність) 100 g (г) продукту (середні
-                                        значення): 1536 kj (кДж) / 367 kcal (ккал).
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 equalHW padding0">
-                    <div class="tirolska history-size">
-                    </div>
-                </div>
-            </div>
-    </section>
+  
     <section id="section-history"  data-aos="fade-in" data-aos-duration="1000">
         <div class="container-fluid">
             <div class="row">

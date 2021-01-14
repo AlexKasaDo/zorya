@@ -43,18 +43,18 @@
                             <p class="title">{{__('main.sub_title')}}</p>
                         </div>
 
-                        <div class="tp-caption"
-                             data-responsive_offset="on"
-                             data-x="['center']"
-                             data-hoffset="['15','135','15','15']"
-                             data-voffset="['100']"
-                             data-x="['center']"
-                             data-y="['middle','middle','middle','middle']"
-                             data-textalign="['center']"
-                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="description">З нами смачно </p>
+{{--                        <div class="tp-caption"--}}
+{{--                             data-responsive_offset="on"--}}
+{{--                             data-x="['center']"--}}
+{{--                             data-hoffset="['15','135','15','15']"--}}
+{{--                             data-voffset="['100']"--}}
+{{--                             data-x="['center']"--}}
+{{--                             data-y="['middle','middle','middle','middle']"--}}
+{{--                             data-textalign="['center']"--}}
+{{--                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>--}}
+{{--                            <p class="description">З нами смачно </p>--}}
 
-                        </div>
+{{--                        </div>--}}
 
                         <div class="tp-caption"
                              data-responsive_offset="on"
