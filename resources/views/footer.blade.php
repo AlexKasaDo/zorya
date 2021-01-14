@@ -5,13 +5,13 @@
     <div class="row">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="row justify-content-between">
-                        <div class="col-auto">
-                            <a href="/"><img  class="logo" src="{{ asset('img/demo/dark-version/logos/logo-slider-white.png') }}" alt="logo"></a>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-12">--}}
+{{--                    <div class="row justify-content-between">--}}
+{{--                        <div class="col-auto">--}}
+{{--                            <a href="/"><img  class="logo" src="{{ asset('img/demo/dark-version/logos/logo-slider-white.png') }}" alt="logo"></a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <div class="voffset-50"></div>
                 <div class="col-footer-1" >
                     <h4>{{__('footer.about')}}</h4>

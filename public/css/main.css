@@ -344,9 +344,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     top: 0;
     left: 0
 }
-svg:hover {
-    fill: #ff7200 ;
-}
+
 body.dark-version .navbar li .dropdown-item{
         color: #fcfcf7 !important;
 }
@@ -1018,6 +1016,12 @@ body.dark-version .dropdown-menu.show{
 }
 body.bodypadding header.overlayer-fixed a.mr-3{
     color: #0e0e0f !important;
+}
+body.bodypadding header.overlayer-fixed svg {
+    fill: #0e0e0f ;
+}
+body.bodypadding header.overlayer-fixed svg:hover {
+    fill: #ff7200 ;
 }
 body.dark-version.bodypadding header.overlayer-fixed a.mr-3{
     color: #fcfcf7 !important;
@@ -2269,11 +2273,7 @@ body.dark-version.pattern-version .history-content, body.dark-version .testimoni
 body.dark-version .testimonials-content p.customer{
     color: #1ea022;
 }
-.history-image{
-    background: url(../img/demo/history/img-home-history.jpg) no-repeat top center #191b1b;
-    background-size: cover;
-    height: 100%;
-}
+
 .boiled-shinki{
     background: url(../img/demo/history/boiled-shinki.jpg) no-repeat top center #191b1b;
     background-size: cover;
@@ -3579,6 +3579,10 @@ a.mr-3{
     font-size: 22px;
 }
 @media (max-width:1300px) {
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-1200.jpg) no-repeat center;
+        background-size: cover;
+    }
     a.bt-orange.bt-reserve-slider.left, button.bt-reserve-slider.bt-orange.left{
         margin-left: 50px;
     }
@@ -3688,6 +3692,10 @@ a.mr-3{
     }
 }
 @media (max-width:1100px) {
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-1200.jpg) no-repeat center;
+        background-size: cover;
+    }
     a.bt-orange.bt-reserve-slider.left, button.bt-reserve-slider.bt-orange.left,.testimonials-content .slick-arrow{
         margin-left: 50px;
     }
@@ -3765,6 +3773,10 @@ a.mr-3{
 }
 
 @media (max-width:990px) {
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-1200.jpg) no-repeat center;
+        background-size: cover;
+    }
     .header.overlayer-fixed.design-page .dropdown-icon span, .header.overlayer-fixed.design-page .dropdown-icon span:after, .header.overlayer-fixed.design-page .dropdown-icon span:before{
         background-color: #fcfcf7;
     }
@@ -3830,6 +3842,10 @@ a.mr-3{
     }
 }
 @media(max-width: 900px){
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-1200.jpg) no-repeat center;
+        background-size: cover;
+    }
     .history-size, .testimonials-image{
         min-height: 450px;
     }
@@ -3874,6 +3890,10 @@ a.mr-3{
 
 }
 @media(max-width: 800px){
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-800.jpg) no-repeat center;
+        background-size: cover;
+    }
     .responsiveFullwidth{
         min-width: 100% !important;
     }
@@ -3901,6 +3921,11 @@ a.mr-3{
     }
 }
 @media(max-width: 768px){
+
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-800.jpg) no-repeat center;
+        background-size: cover;
+    }
     .design-page .navbar li.hambuger{
         left: 20px;
     }
@@ -4095,6 +4120,10 @@ a.mr-3{
 }
 
 @media (max-width: 480px){
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-800.jpg) no-repeat center;
+        background-size: cover;
+    }
     .header.overlayer-fixed{ padding-top: 20px; }
     .navbar-brand img{ margin-left: -10px; max-width: 150px; }
     .header.overlayer-fixed .navbar{ top: 15px;}
@@ -4307,10 +4336,14 @@ a.mr-3{
     }
     #slider1 .btns-box{
         position: relative;
-        left: 25px !important;
     }
 }
 @media (max-width: 320px){
+
+    body.dark-version .section.booking {
+        background: url(../img/demo/dark-version/booking/bg-booking-800.jpg) no-repeat center;
+        background-size: cover;
+    }
     #slider1 h2{
         font-size: 28px;
     }

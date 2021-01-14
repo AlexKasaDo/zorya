@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
   menuFull();
-  
+
   $("#mask").delay(500).fadeOut("slow");
 
   if ($("#slider1").length > 0) {
@@ -34,7 +34,7 @@
                           v_align: 'center',
                           tmp: '<span class="tp-bullet-inner"></span>'
                       }
-                      
+
                   },
                    responsiveLevels:[1170,1040,778,480],
                    visibilityLevels:[1170,1040,778,480],
@@ -165,7 +165,7 @@ $('.slide-home').slick({
   dotsClass:"vertical-dots",
   slidesToShow: 1,
   slidesToScroll: 1
-}); 
+});
 $('.slide-team').slick({
   infinite: true,
   nextArrow: '<a href="javascript:;" class="slick-next bottom"></a>',
@@ -213,12 +213,12 @@ $(window).on("load",function(){
         columnWidth: ".grid-item"
     }
   });
-  $(".grid-gallery").lightGallery(); 
+  $(".grid-gallery").lightGallery();
   $('.datepicker').datepicker({
       format: 'yyyy-mm-dd'
   });
-  $('.timepicker').timepicker({ 
-    'scrollDefault': 'now' 
+  $('.timepicker').timepicker({
+    'scrollDefault': 'now'
   });
   if ($("section.booking").isInViewport()) {
       $("footer").show();
@@ -286,7 +286,7 @@ function VideoInit() {
         $(".home-section .home-content").css({
             "margin-top": ($(window).height()/3) + "px"
         });
-        
+
     }
 }
 
@@ -309,7 +309,7 @@ $(".grid-gallery").isotope({
 function chgMas1(cols){
 
    $(".grid-portfolio .container").toggleClass('container container-fluid');
- 
+
     $("#gll").removeAttr('class');
     $("#gll").attr('class', 'grid-gallery');
     $("#gll").addClass('columns-'+cols);

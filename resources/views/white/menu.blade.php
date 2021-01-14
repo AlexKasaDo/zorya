@@ -3,11 +3,8 @@
     <div class="col-12">
         <div class="row justify-content-between">
             <div class="col-auto">
-                <a class="navbar-brand" href="{{ route('index') }}"><img alt="logo"  src="
-                    {{ asset('img/demo/dark-version/logos/logo-slider-white.png') }}
-                     
-                        "></a>
-                <a class="navbar-brand black" href="/"><img alt="" src="{{ asset('img/demo/dark-version/logos/logo-slider-black.png') }}" alt="logo"></a>
+                <a class="navbar-brand" href="{{ route('index') }}"><img  src="{{ asset('img/demo/dark-version/logos/logo_Zorya-black.png') }}" alt="logo"></a>
+                <a class="navbar-brand black" href="/"><img alt="" src="{{ asset('img/demo/dark-version/logos/logo_Zorya-black.png') }}" alt="logo"></a>
             </div>
 
             <div class="d-flex justify-content-center onlydesktop">
