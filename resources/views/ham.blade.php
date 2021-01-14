@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12">
-                    <h4 class= "center">Шинки варені</h4>
+                    <h4 class= "center">{{__('menu.ham')}}</h4>
                 </div>
             </div>
         </div>
@@ -33,10 +33,16 @@
                             <div class="history-content alignVCenter">
                                 <div class="container-col">
                                     <!--<h4 class="small medium right light">Discover your taste</h4>-->
-                                    <h4 class="white title">Шинка куряча</h4>
+                                    <h4 class="white title">Рулет курячий копчено-варений вищого сорту </h4>
+                                    <h4 class="small">«Смачний»</h4>
                                     <div class="voffset-30"></div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolor alias sapiente qui ipsam minima!</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minima tempore blanditiis at, cupiditate repudiandae? </p>
+                                    <p>Склад: куриця в шкірі, вода питна, крохмаль картопляний, сіль кухонна,
+                                        часник, перець чорний, кардамон.</p>
+                                    <p>Поживна (харчова) цінність 100 g (г) продукту (середні значення):
+                                        білки – 14,5 g (г); жири – 10,0 g (г) з них насичені жири – 2,6 g (г);
+                                        вуглеводи – 2,0 g (г) ; цукор - менше 1,0 g (г); сіль – 2,8 g (г). </p>
+                                    <p>Енергетична цінність (калорійність) 100 g (г) продукту (середні
+                                        значення): 653 kj (кДж) / 156 kcal (ккал).</p>
                                 </div>
                             </div>
                         </div>

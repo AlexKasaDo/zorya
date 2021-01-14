@@ -10,8 +10,9 @@
             <div class="col-12">
                 <div class="container">
                     <div class="row ">
-                        <div class="col-lg-12">
-                            <h4 class="title center">Спецзаказ</h4>
+                        <div class="col-lg-12 center">
+                            <a class="center" href="{{ route('specorder') }}"><img class="rounded mx-auto d-block" src="{{ asset('img/demo/dark-version/logos/logo_specorder.png') }}" alt="logo"></a>
+                            <h4 class="title center">{{__('menu.specorder')}}</h4>
                         </div>
                     </div>
                 </div>
