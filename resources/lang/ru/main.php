@@ -9,6 +9,7 @@ return [
     'set_lang_to_back'=>'ukr',
     'h1_title'=>'Зоря Днепра',
     'sub_title'=>'За нас скажет наша продукция',
+    'main_desc'=>'Мясная продукция на любой вкус!',
     'main_button'=>'Продукция',
     'title_production'=>'Продукция',
     'title_all_production'=>'Весь ассортимент',

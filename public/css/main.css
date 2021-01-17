@@ -624,6 +624,7 @@ a.bt-orange:hover, a.bt-orange:active,a.bt-orange:focus, button.bt-orange:hover,
     text-decoration: none;
     transition: all 0.5s ease;
 }
+
 a.bt-orange, button.bt-orange{
     font-family: 'Comfortaa', cursive;
     border: solid 1px #ff7200;
@@ -639,6 +640,26 @@ a.bt-orange, button.bt-orange{
     padding: 24px 31px;
     transition: all 0.5s ease !important;
     cursor: pointer;
+}
+a.bt-white {
+    font-family: 'Comfortaa', cursive;
+    border: solid 1px #ff7200;
+    /*background-color: #ff7200;*/
+    color: #0e0e0f;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 15.5px;
+    text-align: center;
+    line-height: 12px;
+    padding: 24px 31px;
+    transition: all 0.5s ease !important;
+    cursor: pointer;
+}
+a.bt-white:hover{
+    color: #ff7200;
 }
 .design-slider a.bt-orange{
     padding: 24px 41px;
@@ -774,7 +795,7 @@ body.dark-version .navbar li .dropdown-item:hover,
 
 .navbar li .dropdown-item.active,
 .navbar li .dropdown-item:active {
-    background-color: #ff7200;
+    background-color: transparent;
     color: #fcfcf7
 }
 .dropdown-submenu:hover
@@ -913,6 +934,9 @@ li.nav-social ul .nav-link:before {
 .navbar-toggler-icon {
     background-image: url(../img/demo/icons/hamburguer.svg)
 }
+svg{
+    transition: all .5s ease;
+}
 svg:hover{
 fill: #ff7200;
 }
@@ -994,6 +1018,26 @@ fill: #ff7200;
     left: 0;
     width: 100%;
     background-color: #fff;
+    content: "";
+    height: 2px
+}
+.dropdown-icon.white span {
+    display: block;
+    position: relative;
+    background: #191b1b;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px
+}
+
+.dropdown-icon.white span:after,
+.dropdown-icon.white span:before {
+    position: relative;
+    display: block;
+    left: 0;
+    width: 100%;
+    background-color: #191b1b;
     content: "";
     height: 2px
 }
@@ -3644,7 +3688,7 @@ a.mr-3{
         margin-left: 50px;
     }
     #slider1 p.title{
-        font-size: 65px;
+        font-size: 60px;
     }
     h4.small.center, h4.center,h4.small.right, h4.right{
         margin-left: 0px;
@@ -3748,17 +3792,10 @@ a.mr-3{
         margin-left: 50px;
     }
     #slider1 p.title, #slider1 p.description, #slider1 .text{
-      position: relative;
-      left: -13%;
+
     }
-    #slider1 h2{
-      position: relative;
-      left: -23%;
-    }
-    #slider1 h1{
-      position: relative;
-      left: -23%;
-    }
+
+
 
     .tp-mask-wrap{
         overflow:visible !important;
@@ -3812,9 +3849,6 @@ a.mr-3{
     }
     .section.ppal-menu:after, .section.ppal-menu:before{
         display:    none;
-    }
-    .header.overlayer-fixed.fixed-small{
-        max-height: 80px;
     }
     .section.ppal-menu:after, .section.ppal-menu:before{
         display: none;

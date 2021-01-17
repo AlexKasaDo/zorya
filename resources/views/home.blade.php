@@ -22,7 +22,7 @@
 
                         <div class="tp-caption"
                              data-x="['center']"
-                             data-hoffset="['15','135','15','15']"
+                             data-hoffset="['15','15','15','15']"
                              data-voffset="['-80']"
                              data-x="['center']"
                              data-y="['middle','middle','middle','middle']"
@@ -34,7 +34,7 @@
 
                         <div class="tp-caption"
                              data-x="['center']"
-                             data-hoffset="['15','135','15','15']"
+                             data-hoffset="['15','15','15','15']"
                              data-voffset="['0']"
                              data-x="['center']"
                              data-y="['middle','middle','middle','middle']"
@@ -52,7 +52,7 @@
 {{--                             data-y="['middle','middle','middle','middle']"--}}
 {{--                             data-textalign="['center']"--}}
 {{--                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>--}}
-{{--                            <p class="description">З нами смачно </p>--}}
+{{--                            <p class="description"> {{__('main.main_desc')}} </p>--}}
 
 {{--                        </div>--}}
 
@@ -60,10 +60,10 @@
                              data-responsive_offset="on"
                              data-type="text"
                              data-height="none"
-                             data-width="['1920','1920','1920','520']"
+                             data-width="['1170','1170','1170','1170']"
                              data-whitespace="normal"
-                             data-hoffset="['15','135','15','15']"
-                             data-voffset="['120']"
+                             data-hoffset="['15','15','15','15']"
+                             data-voffset="['200']"
                              data-x="['center']"
                              data-y="['middle','middle','middle','middle']"
                              data-textalign="['center']"
@@ -351,38 +351,51 @@
 
     <div class="voffset-131 bg"></div>
 
-    <!-- Vacancies Section Start -->
-    <section id="section-booking" class="section booking">
-    <div class="row justify-content-md-center">
-        <div class="col-12 vacancies">
-            <div class="voffset-90"></div>
-            <div class="container">
-                <div class="row ">
-                    <div class="col-lg-12" data-aos-id="booking-section">
-                        <h4 class="white title">{{__('main.vacancies')}}</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>
-                            {{__('main.vacancies_p1')}}
-                            <br>
-                        </p>
-                        <p>
-                            {{__('main.vacancies_p2')}}
-                        </p>
-                        <p> {{__('main.phone')}} <a href="tel:+380675611688">+38(067)-561-16-88</a></strong></p>
 
+    <!-- call back -->
+    <section id="section-booking" class="section booking">
+        <div class="row justify-content-md-center">
+            <div class="col-12">
+                <div class="voffset-90"></div>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-12" data-aos-id="booking-section">
+                            <!--<h4 class="small medium white">Let’s</h4>-->
+                            <h4 class="white title">Зворотній зв'язок</h4>
+                        </div>
                     </div>
                 </div>
-                <div class="voffset-80"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form action="#section-booking"  id="bookingform" class="booking-form row">
+
+                                <div class="voffset-20"></div>
+                                <div class="form-group col-lg-12">
+                                    <input name="name" type="text" class="form-control" id="input-email" placeholder="Введіть  ім'я">
+                                </div>
+                                <div class="voffset-20"></div>
+                                <div class="form-group col-lg-12">
+                                    <input name="phone" type="text" class="form-control" id="input-email" placeholder="Введіть номер">
+                                </div>
+
+                                <div class="voffset-20"></div>
+                                <div class="form-group col-lg-12">
+                                    <input name="email" type="email" class="form-control" id="input-email" placeholder="{{__('footer.email')}}">
+                                </div>
+                                <div class="voffset-40"></div>
+                                <div class="form-group col-lg-12">
+                                    <button type="submit" value="" class="bt-orange left">Отправить<span><img alt=">" src="img/demo/particles/arrow.svg"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="voffset-100"></div>
+                </div>
             </div>
         </div>
-    </div>
     </section>
-    <!-- Vacancies Section End -->
+    <!-- call back  end-->
 
 @endsection
 

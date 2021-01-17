@@ -4,7 +4,7 @@
         <div class="row justify-content-between">
             <div class="col-auto">
                 <a class="navbar-brand" href="{{ route('index') }}"><img  src="{{ asset('img/demo/dark-version/logos/logo_Zorya-black.png') }}" alt="logo"></a>
-                <a class="navbar-brand black" href="/"><img alt="" src="{{ asset('img/demo/dark-version/logos/logo_Zorya-black.png') }}" alt="logo"></a>
+                <a class="navbar-brand black" href="{{ route('index') }}"><img src="{{ asset('img/demo/dark-version/logos/logo_Zorya-black.png') }}" alt="logo"></a>
             </div>
 
             <div class="d-flex justify-content-center onlydesktop">
@@ -40,6 +40,7 @@
 
             <div class="d-flex justify-content-end">
                 <ul class="navbar float-right onlydesktop">
+                    <li><a class="bt-white bt-menu-reserve" href="{{ route('specorder') }}">{{__('menu.specorder')}}</a></li>
                     <li><a class="fb-ic mr-3" href="http://www.facebook.com" target="_blank" role="button">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" viewBox="0 0 264 512"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>
                         </a></li>
@@ -51,7 +52,7 @@
                 </ul>
                 <ul class="navbar">
                     <li class="hambuger onlyresponsive">
-                        <button id="trigger-overlay" class="trigger-overlay dropdown-icon"><span></span></button>
+                        <button id="trigger-overlay" class="trigger-overlay dropdown-icon white"><span></span></button>
                     </li>
 
                 </ul>
@@ -68,6 +69,7 @@
                 <li><a href="{{ route('gallery') }}" >{{__('menu.gallery')}}</a></li>
                 <li><a href="{{ route('new') }}" >{{__('menu.new')}}</a></li>
                 <li><a href="{{ route('vacancies') }}" >{{__('menu.vacancies')}}</a></li>
+                <li><a href="{{ route('ready_to_cook_food') }}" >{{__('menu.half')}} </a></li>
                 <li><a href="#section-booking" class="animatedScroll">{{__('menu.contact')}}</a></li>
             </ul>
         </nav>

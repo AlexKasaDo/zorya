@@ -72,6 +72,7 @@
                 <li><a href="{{ route('gallery') }}" >{{__('menu.gallery')}}</a></li>
                 <li><a href="{{ route('new') }}" >{{__('menu.new')}}</a></li>
                 <li><a href="{{ route('vacancies') }}" >{{__('menu.vacancies')}}</a></li>
+                <li><a href="{{ route('ready_to_cook_food') }}" >{{__('menu.half')}} </a></li>
                 <li><a href="#section-booking" class="animatedScroll">{{__('menu.contact')}}</a></li>
             </ul>
         </nav>

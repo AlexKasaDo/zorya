@@ -9,6 +9,7 @@ return [
     'set_lang_to_back'=>'ru',
     'h1_title'=>'Зоря Дніпра',
     'sub_title'=>'Про нас скаже наша продукція',
+    'main_desc'=>'М\'ясна продукція на будь-який смак!',
     'main_button'=>'Продукція',
     'title_production'=>'Продукція',
     'title_all_production'=>'Весь асортимент',
