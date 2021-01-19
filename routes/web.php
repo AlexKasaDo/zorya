@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//    Call Back From
+Route::post('feedback', 'ContactController@feedBackForm'
+)->name('contactForm');
+
 Route::group(['middleware'=>'HtmlMinifier'], function(){
 
     Route::get('/locale/{locale}', 'LanguagesController@changeLocale')->name('locale');
@@ -49,7 +53,9 @@ Route::group(['middleware'=>'HtmlMinifier'], function(){
     Route::get('highest_class', function () { return view('highest_class');})->name('highest_class');
 
     Route::get('first_class', function () { return view('first_class');})->name('first_class');
-    
+
+
+
 
 });
 

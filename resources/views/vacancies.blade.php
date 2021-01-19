@@ -36,6 +36,7 @@
     </div>
 </section>
 
+@include('form')
 
 <section id="section-booking" class="section booking voffset-200 bg">
 

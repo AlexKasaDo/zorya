@@ -40,21 +40,21 @@
                              data-y="['middle','middle','middle','middle']"
                              data-textalign="['center']"
                              data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                            <p class="title">{{__('main.sub_title')}}</p>
+                            <h2 class="title">{{__('main.sub_title')}}</h2>
                         </div>
 
-{{--                        <div class="tp-caption"--}}
-{{--                             data-responsive_offset="on"--}}
-{{--                             data-x="['center']"--}}
-{{--                             data-hoffset="['15','135','15','15']"--}}
-{{--                             data-voffset="['100']"--}}
-{{--                             data-x="['center']"--}}
-{{--                             data-y="['middle','middle','middle','middle']"--}}
-{{--                             data-textalign="['center']"--}}
-{{--                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>--}}
-{{--                            <p class="description"> {{__('main.main_desc')}} </p>--}}
+                        <div class="tp-caption"
+                             data-responsive_offset="on"
+                             data-x="['center']"
+                             data-hoffset="['15','135','15','15']"
+                             data-voffset="['100']"
+                             data-x="['center']"
+                             data-y="['middle','middle','middle','middle']"
+                             data-textalign="['center']"
+                             data-frames='[{"from":"opacity: 0;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:50px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity: 1;auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+                            <p class="description"> {{__('main.main_desc')}} </p>
 
-{{--                        </div>--}}
+                        </div>
 
                         <div class="tp-caption"
                              data-responsive_offset="on"
@@ -352,50 +352,7 @@
     <div class="voffset-131 bg"></div>
 
 
-    <!-- call back -->
-    <section id="section-booking" class="section booking">
-        <div class="row justify-content-md-center">
-            <div class="col-12">
-                <div class="voffset-90"></div>
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-lg-12" data-aos-id="booking-section">
-                            <!--<h4 class="small medium white">Let’s</h4>-->
-                            <h4 class="white title">Зворотній зв'язок</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form action="#section-booking"  id="bookingform" class="booking-form row">
-
-                                <div class="voffset-20"></div>
-                                <div class="form-group col-lg-12">
-                                    <input name="name" type="text" class="form-control" id="input-email" placeholder="Введіть  ім'я">
-                                </div>
-                                <div class="voffset-20"></div>
-                                <div class="form-group col-lg-12">
-                                    <input name="phone" type="text" class="form-control" id="input-email" placeholder="Введіть номер">
-                                </div>
-
-                                <div class="voffset-20"></div>
-                                <div class="form-group col-lg-12">
-                                    <input name="email" type="email" class="form-control" id="input-email" placeholder="{{__('footer.email')}}">
-                                </div>
-                                <div class="voffset-40"></div>
-                                <div class="form-group col-lg-12">
-                                    <button type="submit" value="" class="bt-orange left">Отправить<span><img alt=">" src="img/demo/particles/arrow.svg"></span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="voffset-100"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- call back  end-->
+@include('form')
 
 @endsection
 
